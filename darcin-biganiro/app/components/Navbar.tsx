@@ -2,6 +2,7 @@
 
 import React, { useCallback, useEffect, useState } from 'react'
 import cn from 'classnames'
+import Image from 'next/image'
 
 const Navbar = () => {
 
@@ -27,15 +28,19 @@ const Navbar = () => {
         className='bg-background card-shadow p-3 md:hidden rounded'
         onClick={() => setIsOpen(prev => !prev)}
       >
-        <img
+        <Image
           className='block dark:hidden' 
           src="/menu_icon_light.svg" 
           alt="menu icon"
+          width={24}
+          height={24}
         />
-        <img
+        <Image
           className='hidden dark:block'
           src="/menu_icon_dark.svg"
-          alt="menu icon" 
+          alt="menu icon"
+          width={24}
+          height={24}
         />
       </button>
       <nav className={cn('bg-background card-shadow p-3 rounded md:block duration-300 ease-in-out',
