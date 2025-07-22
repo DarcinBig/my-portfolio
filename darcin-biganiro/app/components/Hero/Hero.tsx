@@ -6,7 +6,7 @@ const Hero = () => {
     <section className='relative flex flex-row items-center z-20 mx-auto md:gap-[37px] md:mx-10'>
       <div className='flex flex-col gap-[13px] items-center md:gap-[34px] md:my-[58px] md:items-start'>
         <h1 className='text-2xl text-center font-semibold block md:text-[40px] md:text-start md:inline'>
-          <span className='-ml-3'>👋</span> Hi! I&apos;m Darcin, I&apos;m a {' '} <span className='block text-[27px] highlight mt-2 md:text-[45px] md:inline md:mt-0'>Software Developer and Graphic Designer</span>
+          <span className='-ml-3'>👋</span>Hi! I&apos;m Darcin, I&apos;m a {''} <span className='block text-[27px] highlight mt-2 md:text-[45px] md:inline md:mt-0'>Software Engineer and UI/UX Designer</span>
         </h1>
         <p className='text-center text-sm mx-6 md:text-start md:mx-0'>
           I&apos;m obsessed with code and helping startups create unique and helpful products.
