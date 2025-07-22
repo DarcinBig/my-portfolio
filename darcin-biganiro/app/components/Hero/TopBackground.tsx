@@ -26,10 +26,13 @@ const TopBackground = () => {
           </div>
         </div>
       </div>
-      <Image src="/top_highlight.svg" alt="top dark mode background highlight" width={809} height={877} className='absolute top-[-515px] hidden dark:md:block left-1/2 -translate-x-1/2 w-auto h-auto' />
+      <Image src="/top_highlight.svg" alt="top dark mode background highlight" width={809} height={877} className='absolute top-[-515px] hidden dark:md:block left-1/2 -translate-x-1/2' />
       {/* Mobile */}
-      <Image src="/top_highlight_mobile.svg" alt="top dark mode background highlight for mobile" width={429} height={465} className='absolute top-[-229px] hidden dark:block dark:md:hidden left-1/2 -translate-x-1/2 w-auto h-auto' />
-      <div className="absolute top-0 w-full h-[795px] bg-repeat-x bg-[url('/top_bg_light.svg')] bg-[auto_auto] dark:hidden md:block" />
+      <Image src="/top_highlight_mobile.svg" alt="top dark mode background highlight for mobile" width={429} height={465} className='absolute top-[-229px] hidden dark:block dark:md:hidden left-1/2 -translate-x-1/2' />
+      <div className="absolute top-0 w-full h-[795px] bg-repeat-x bg-[url('/top_bg_light.svg')] bg-[auto_auto] hidden dark:hidden md:block" />
+      <div className="absolute top-0 w-full h-[600px] bg-repeat-x bg-[url('/top_bg_mobile_light.svg')] bg-[auto_auto] dark:hidden md:hidden" />
+      <div className="absolute top-0 w-full h-[795px] bg-repeat-x bg-[url('/top_bg_dark.svg')] bg-[auto_auto] hidden md:dark:block" />
+      <div className="absolute top-0 w-full h-[600px] bg-repeat-x bg-[url('/top_bg_mobile_dark.svg')] bg-[auto_auto] hidden dark:block dark:md:hidden" />
     </>
   )
 }
