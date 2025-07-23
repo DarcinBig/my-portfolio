@@ -16,6 +16,15 @@
   /* --font-sans: var(--font-outfit); */
 }
 
+@keyframes scroll {
+  0% { transform: translateX(-5.2%); }
+  100% { transform: translateX(-55.2%); }
+}
+
+.animate-scroll {
+  animation: scroll 25s linear infinite;
+}
+
 .dark {
   --background: #030304;
   --foreground: #ffffff;
