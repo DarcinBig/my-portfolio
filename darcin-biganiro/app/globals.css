@@ -25,6 +25,10 @@
   animation: scroll 25s linear infinite;
 }
 
+.scroll:hover {
+  animation-play-state: paused
+}
+
 .dark {
   --background: #030304;
   --foreground: #ffffff;
@@ -58,4 +62,10 @@ body {
   .contact-button {
     @apply p-1.5 rounded-md shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex items-center justify-center w-8 h-8;
   }
-} 
+}
+
+@layer utilities {
+  .bg-gradient-radial {
+    background-image: radial-gradient(circle, #6d28d9 0%, transparent 70%);
+  }
+}

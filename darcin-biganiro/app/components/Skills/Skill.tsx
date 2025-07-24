@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import React, { useEffect, useRef } from 'react'
 import { motion, useMotionTemplate, useMotionValue } from 'framer-motion'
+import Reveal from '../Reveal'
 
 type Props = {
   icon: string
@@ -30,11 +31,13 @@ const Skill = ({icon, name}: Props) => {
   }, [])
 
   return (
-    <div className='relative flex gap-2 p-2 border-primary border rounded-lg h-[46px]'>
-      <motion.div ref={ref} className='absolute inset-0 border-2 border-purple-500 dark:border-purple-300 rounded-lg' style={{maskImage: mask, WebkitMaskImage: mask,}}></motion.div>
-      <Image src={icon} alt={`${name} icon`} width={23} height={23} />
-      <p className='text-lg'>{name}</p>
-    </div>
+    <Reveal duration={1.5}>
+      <div className='relative flex gap-2 p-2 border-primary border rounded-lg h-[46px]'>
+        <motion.div ref={ref} className='absolute inset-0 border-2 border-purple-500 dark:border-purple-300 rounded-lg' style={{maskImage: mask, WebkitMaskImage: mask,}}></motion.div>
+        <Image src={icon} alt={`${name} icon`} width={23} height={23} />
+        <p className='text-lg'>{name}</p>
+      </div>
+    </Reveal>
   )
 }
 
