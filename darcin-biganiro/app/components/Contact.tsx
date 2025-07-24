@@ -51,7 +51,7 @@ const Contact = () => {
                   alt='github logo'
                   width={20}
                   height={20}
-                  className='dark:hidden'
+                  className='block dark:hidden'
                 />
               </a>
               <a href="https://www.twitter.com/big_darcin" className='contact-button'>
@@ -67,7 +67,7 @@ const Contact = () => {
                   alt='twitter logo'
                   width={20}
                   height={20}
-                  className='dark:hidden'
+                  className='block dark:hidden'
                 />
               </a>
               <a href="https://www.stackoverflow.com" className='contact-button'>
@@ -83,7 +83,7 @@ const Contact = () => {
                   alt='stackoverflow logo'
                   width={20}
                   height={20}
-                  className='dark:hidden'
+                  className='block dark:hidden'
                 />
               </a>
             </div>
