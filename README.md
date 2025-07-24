@@ -50,8 +50,8 @@ npm run dev
 
 ## 🤝 Connect with Me
 
-* **Email**: [darcin@example.com](mailto:d.biganiro28@gmail.com)
-* **LinkedIn**: [https://linkedin.com/in/darcin](https://linkedin.com/in/darcin-big)
+* **Email**: [d.biganiro28@gmail.com](mailto:d.biganiro28@gmail.com)
+* **LinkedIn**: [https://linkedin.com/in/darcin-big](https://linkedin.com/in/darcin-big)
 * **GitHub**: [https://github.com/DarcinBig](https://github.com/DarcinBig)
 * **Website**: [https://darcin-biganiro.vercel.app](https://darcin-biganiro.vercel.app)
 
