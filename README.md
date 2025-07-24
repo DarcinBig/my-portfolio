@@ -1,3 +1,8 @@
+<img width="1920" height="1080" alt="my-portfolio" src="https://github.com/user-attachments/assets/339ed699-f9e5-4518-9b44-7a3934495a1b" />
+
+
+---
+
 # My Web Portfolio
 
 Welcome to **my portfolio**, the single-page showcase of my journey and impact as a **Software Engineer**. Built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**, this site redefines digital experiences through a pragmatic, user-centric lens.
