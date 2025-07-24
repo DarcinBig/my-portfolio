@@ -1,5 +1,5 @@
 'use client'
-import React from 'react'
+import React, { MouseEventHandler } from 'react'
 import Image from 'next/image'
 import Reveal from '../Reveal'
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion'
