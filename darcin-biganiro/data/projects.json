@@ -1,42 +1,22 @@
 [
   {
-    "thumbnail": "/weather_thumbnail.png",
-    "title": "Weather Dashboard",
+    "thumbnail": "/assets/images/portfolio_thumbnail.jpg",
+    "title": "Personal Portfolio",
     "link": {
-      "label": "Weather.dash",
-      "url": "https://www.example.com"
+      "label": "darcin-biganiro",
+      "url": "https://darcin-biganiro.vercel.app"
     },
-    "description": "Developed a weather dashboard that fetches real-time data from public API.",
-    "languageIcon": ["/css_icon.png", "/html_icon.png", "/js_icon.png"]
+    "description": "My single-page portfolio showcasing my skills, projects, and contact information.",
+    "languageIcon": ["/assets/tailwind_icon.png", "/assets/typescript_icon.png", "/assets/react_icon.png", "/assets/next_icon.png", "/assets/framer_motion_icon.png"]
   },
   {
-    "thumbnail": "/ecommerce_thumbnail.png",
-    "title": "E-commerce Platform",
+    "thumbnail": "/assets/images/skill_grow_thumbnail.jpg",
+    "title": "Skill-Grow — LMS Platform",
     "link": {
-      "label": "myecommerce.com",
-      "url": "https://www.example.com"
+      "label": "skill-grow",
+      "url": "https://skill-grow-iota.vercel.app"
     },
-    "description": "Developed a fully functional e-commerce platform with shopping cart, payment gateway integration, and user authentication.",
-    "languageIcon": ["/html_icon.png", "/js_icon.png"]
-  },
-  {
-    "thumbnail": "/blog_thumbnail.png",
-    "title": "Blog CMS",
-    "link": {
-      "label": "blog.cms",
-      "url": "https://www.example.com"
-    },
-    "description": "Create a content management system for blogging with features like post management and comment moderation",
-    "languageIcon": ["/js_icon.png", "/html_icon.png"]
-  },
-  {
-    "thumbnail": "/task_thumbnail.png",
-    "title": "Task Management App",
-    "link": {
-      "label": "tassks.com",
-      "url": "https://www.example.com"
-    },
-    "description": "Developed a task management application with features such as task categorization, deadline tracking, and notification alert.",
-    "languageIcon": ["/ts_icon.png", "/go_icon.png"]
+    "description": "A full-stack Learning Management System designed to enable educators to create, manage and monetize online courses, and to allow learners to enroll, study at their own pace and monitor their progress.",
+    "languageIcon": ["/assets/tailwind_icon.png", "/assets/javascript_icon.png", "/assets/react_icon.png", "/assets/node_icon.png", "/assets/mongo_icon.png", "/assets/express_icon.png"]
   }
 ]

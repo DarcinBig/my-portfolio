@@ -65,7 +65,7 @@ const Project = ({
           alt={`Thumbnail for ${title}`}
           width={392}
           height={230}
-          className='w-full h-[230px] object-cover'
+          className='w-full h-[230px] object-cover rounded-md'
           style={{
             transform: 'translateZ(100px'
           }}
