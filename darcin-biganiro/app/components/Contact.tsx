@@ -40,47 +40,63 @@ const Contact = () => {
             <div className='flex flex-row gap-1'>
               <a href="https://www.github.com/DarcinBig" className='contact-button'>
                 <Image
-                  src='/github_logo_dark.svg'
+                  src='/assets/github_icon.svg'
                   alt='github logo'
                   width={20}
                   height={20}
                   className='hidden dark:block'
                 />
                 <Image
-                  src='/github_logo.svg'
+                  src='/assets/github_icon.svg'
                   alt='github logo'
                   width={20}
                   height={20}
                   className='block dark:hidden'
                 />
               </a>
-              <a href="https://www.twitter.com/big_darcin" className='contact-button'>
+              <a href="https://www.instagram.com/sir_darcinbiganiro" className='contact-button'>
                 <Image
-                  src='/twitter_icon_dark.svg'
-                  alt='twitter logo'
+                  src='/assets/instagram_icon.svg'
+                  alt='instagram logo'
                   width={20}
                   height={20}
                   className='hidden dark:block'
                 />
                 <Image
-                  src='/twitter_icon.svg'
-                  alt='twitter logo'
+                  src='/assets/instagram_icon.svg'
+                  alt='instagram logo'
                   width={20}
                   height={20}
                   className='block dark:hidden'
                 />
               </a>
-              <a href="https://www.stackoverflow.com" className='contact-button'>
+              <a href="https://www.x.com/big_darcin" className='contact-button'>
                 <Image
-                  src='/stackoverflow_icon_dark.svg'
-                  alt='stackoverflow logo'
+                  src='/assets/x_icon.svg'
+                  alt='x logo'
                   width={20}
                   height={20}
                   className='hidden dark:block'
                 />
                 <Image
-                  src='/stackoverflow_icon.svg'
-                  alt='stackoverflow logo'
+                  src='/assets/x_icon.svg'
+                  alt='x logo'
+                  width={20}
+                  height={20}
+                  className='block dark:hidden'
+                />
+              </a>
+              <a href="https://www.linkedin.com/in/darcin-big" className='contact-button'>
+                <Image
+                  src='/assets/linkedin_icon.svg'
+                  alt='linkedin logo'
+                  width={20}
+                  height={20}
+                  className='hidden dark:block'
+                />
+                <Image
+                  src='/assets/linkedin_icon.svg'
+                  alt='linkedin logo'
                   width={20}
                   height={20}
                   className='block dark:hidden'

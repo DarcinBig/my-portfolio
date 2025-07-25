@@ -1,34 +1,42 @@
 [
   {
-    "name": "Java",
-    "icon": "/java_icon.png"
-  },
-  {
-    "name": "JavaScript",
-    "icon": "/js_icon.png"
-  },
-  {
-    "name": "TypeScript",
-    "icon": "/ts_icon.png"
-  },
-  {
-    "name": "Kotlin",
-    "icon": "/kotlin_icon.png"
-  },
-  {
-    "name": "Golang",
-    "icon": "/go_icon.png"
+    "name": "HTML",
+    "icon": "/assets/html_icon.png"
   },
   {
     "name": "CSS",
-    "icon": "/css_icon.png"
+    "icon": "/assets/css_icon.png"
   },
   {
-    "name": "HTML",
-    "icon": "/html_icon.png"
+    "name": "Tailwind CSS",
+    "icon": "/assets/tailwind_icon.png"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "/assets/javascript_icon.png"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "/assets/typescript_icon.png"
   },
   {
     "name": "React JS",
-    "icon": "/react_icon.png"
+    "icon": "/assets/react_icon.png"
+  },
+  {
+    "name": "Next JS",
+    "icon": "/assets/next_icon.png"
+  },
+  {
+    "name": "Express JS",
+    "icon": "/assets/express_icon.png"
+  },
+  {
+    "name": "Node JS",
+    "icon": "/assets/node_icon.png"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "/assets/mongo_icon.png"
   }
 ]
