@@ -18,5 +18,15 @@
     },
     "description": "A full-stack Learning Management System designed to enable educators to create, manage and monetize online courses, and to allow learners to enroll, study at their own pace and monitor their progress.",
     "languageIcon": ["/assets/tailwind_icon.png", "/assets/javascript_icon.png", "/assets/react_icon.png", "/assets/node_icon.png", "/assets/mongo_icon.png", "/assets/express_icon.png"]
+  },
+  {
+    "thumbnail": "/assets/images/university_thumbnail.jpg",
+    "title": "University — A college website",
+    "link": {
+      "label": "university",
+      "url": "https://university-one-snowy.vercel.app/"
+    },
+    "description": "A full responsive single page application for a college or university.",
+    "languageIcon": ["/assets/css_icon.png", "/assets/javascript_icon.png", "/assets/react_icon.png"]
   }
 ]
