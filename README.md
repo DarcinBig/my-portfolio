@@ -35,7 +35,7 @@ git clone https://github.com/DarcinBig/my-portfolio.git
 cd my-portfolio
 
 # Install dependencies
-npm install
+npm install --force
 
 # Run in development mode
 npm run dev
