@@ -1,5 +1,15 @@
 [
   {
+    "thumbnail": "/assets/images/safestay_thumbnail.jpg",
+    "title": "SafeStay — Hotel Booking",
+    "link": {
+      "label": "safestay",
+      "url": "https://safestay-booking.vercel.app/"
+    },
+    "description": "SafeStay is a minimalist hotel reservation platform built with a modern MERN stack.",
+    "languageIcon": ["/assets/tailwind_icon.png", "/assets/javascript_icon.png", "/assets/react_icon.png", "/assets/express_icon.png", "/assets/node_icon.png", "/assets/mongo_icon.png", "/assets/stripe_icon.png"]
+  },
+  {
     "thumbnail": "/assets/images/portfolio_thumbnail.jpg",
     "title": "Personal Portfolio",
     "link": {
@@ -11,13 +21,13 @@
   },
   {
     "thumbnail": "/assets/images/skill_grow_thumbnail.jpg",
-    "title": "Skill-Grow — LMS Platform",
+    "title": "Skill-Grow — Learning Management System",
     "link": {
       "label": "skill-grow",
       "url": "https://skill-grow-iota.vercel.app"
     },
-    "description": "A full-stack Learning Management System designed to enable educators to create, manage and monetize online courses, and to allow learners to enroll, study at their own pace and monitor their progress.",
-    "languageIcon": ["/assets/tailwind_icon.png", "/assets/javascript_icon.png", "/assets/react_icon.png", "/assets/node_icon.png", "/assets/mongo_icon.png", "/assets/express_icon.png"]
+    "description": "A full-stack LMS designed to enable educators to create, manage and monetize online courses, and to allow learners to enroll, study at their own pace and monitor their progress.",
+    "languageIcon": ["/assets/tailwind_icon.png", "/assets/javascript_icon.png", "/assets/react_icon.png", "/assets/node_icon.png", "/assets/mongo_icon.png", "/assets/express_icon.png", "/assets/stripe_icon.png"]
   },
   {
     "thumbnail": "/assets/images/university_thumbnail.jpg",
